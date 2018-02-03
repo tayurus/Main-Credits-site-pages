@@ -1,0 +1,25 @@
+include ../blocks/head/head.jade
+body
+    include ../blocks/header/header.jade
+    
+    section.questions
+        h2 What can we help you with?
+        input(type='text', name='user-question', placeholder='Search...')
+        
+    .answers-item
+        h3.answers-item-title What is CREDITS?
+        .answers-item-content
+            .answers-content-text.answers-content-text_full
+                | CREDITS is an open blockchain platform with autonomous smart contracts and an internal cryptocurrency. The platform is designed to create services for blockchain systems using self-executing smart contracts and public data registry.
+                | The platform can execute more than 1,000,000 transactions per second and has an execution time of 0.01 seconds.
+                | The platform can execute more than 1,000,000 transactions per second and has an execution time of 0.01 seconds.
+                | The platform can execute more than 1,000,000 transactions per second and has an execution time of 0.01 seconds.
+                | The platform can execute more than 1,000,000 transactions per second and has an execution time of 0.01 seconds.
+                | The platform can execute more than 1,000,000 transactions per second and has an execution time of 0.01 seconds.
+                | The platform can execute more than 1,000,000 transactions per second and has an execution time of 0.01 seconds.
+                
+            img(src='img/answer1.png', alt='')
+        
+    include ../blocks/pagination/pagination.jade
+
+    include ../blocks/footer/footer.jade

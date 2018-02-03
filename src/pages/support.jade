@@ -1,0 +1,38 @@
+include ../blocks/head/head.jade
+body
+    include ../blocks/header/header.jade
+
+    section.questions
+        h2 What can we help you with?
+        input(type='text', name='user-question', placeholder='Search...')
+        .questions-columns
+            .questions-col
+                a(href='#') What is CREDITS
+                a(href='#') About us
+            .questions-col
+                a(href='#') How it works?
+                a(href='#') Privacy
+                a(href='#') Security
+            .questions-col
+                a(href='#') About credits monitor
+                a(href='#') About wallet
+
+
+    section.answers
+        .answers-item
+            h3.answers-item-title What is CREDITS?
+            .answers-item-content
+                .answers-content-text
+                    | CREDITS is an open blockchain platform with autonomous smart contracts and an internal cryptocurrency. The platform is designed to create services for blockchain systems using self-executing smart contracts and public data registry.
+                    | The platform can execute more than 1,000,000 transactions per second and has an execution time of 0.01 seconds.
+                    a.answers-readMore(href='#') Read More...
+                img(src='img/answer1.png', alt='')
+        .answers-item
+            h3.answers-item-title How it works?
+            .answers-item-content
+                .answers-content-text
+                    | The CREDITS platform is a decentralized financial system for direct interaction between peer-to-peer (P2P) participants. Credit is a platform (protocol) with CREDITS internal cryptocurrency (CS). A unique new technical implementation of blocks, intelligent contracts and data exchange protocols. It is a platform with completely new technical possibilities for network, speed, transaction costs and number of operations per second
+                    a.answers-readMore(href='#') Read More...
+                img(src='img/answer2.png', alt='')
+
+    include ../blocks/footer/footer.jade
