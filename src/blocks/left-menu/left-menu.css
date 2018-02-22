@@ -1,0 +1,12 @@
+.left-menu{
+    min-width: 250px;
+    border-right: 2px solid #000;
+    padding: 15px;
+}
+
+
+@media (max-width:740px), (max-device-width:740px) {
+    .left-menu{
+        border: none;
+    }
+}

@@ -1,0 +1,29 @@
+.footer{
+    background-color: #ebebeb;
+    padding: 10px 0px 50px 0px;
+    margin-top: 150px;
+}
+
+.footer__wrapper{
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0px auto;
+}
+
+.footer__col{
+    width: 200px;
+    margin: 15px;
+}
+
+.footer__title{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer__link{
+    margin-bottom: 10px;
+    display: block;
+}

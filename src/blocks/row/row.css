@@ -1,0 +1,11 @@
+.row{
+    display: flex;
+}
+
+@media (max-width:740px), (max-device-width:740px) {
+    .row_about{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+}

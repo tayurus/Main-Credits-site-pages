@@ -1,0 +1,29 @@
+.container{
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+.container_categories{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    grid-gap: 50px;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.container_nomargin{
+    margin: 0px;
+}
+
+.container__text{
+    padding: 30px;
+    text-align: justify;
+}
+
+
+@media (max-width:740px), (max-device-width:740px) {
+    .container__text{
+        padding: 10px;
+    }
+}

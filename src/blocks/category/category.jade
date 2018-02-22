@@ -1,0 +1,9 @@
+mixin category(imgSrc, title, link1, link1Text, link2, link2Text)
+    .category
+        .row
+            .category__img(style="background:url("+imgSrc+") no-repeat center / 80px")
+            .container.container_nomargin
+                h4.category__title=title
+                a.category__link(href=link1)=link1Text
+                a.category__link(href=link2)=link2Text
+    

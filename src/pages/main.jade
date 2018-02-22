@@ -1,0 +1,22 @@
+include ../blocks/category/category.jade
+include ../blocks/head/head.jade
+body
+    include ../blocks/header/header.jade
+    
+    .title
+        h2.title__text What can we help you with?
+        .input
+            input(type="text", placeholder="Search", class="input__field")
+            
+    .container.container_categories
+        +category("img/category.png", "Credits Monitor", "#", "How it work", "#", "Read use cases")
+        +category("img/category.png", "Web Wallet", "#", "How it work", "#", "Read use cases")
+        +category("img/category.png", "Node", "#", "How it work", "#","Read use cases")
+        +category("img/category.png", "Security", "#", "How it work", "#", "Read use cases")
+        +category("img/category.png", "For Developers", "#", "How it work", "#", "Read use cases")
+        +category("img/category.png", "Bug Bounty", "#", "How it work", "#", "Read use cases")
+        +category("img/category.png", "Wiki", "#", "How it work", "#", "Read use cases")
+
+        
+
+    include ../blocks/footer/footer.jade

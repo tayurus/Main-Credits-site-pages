@@ -1,0 +1,15 @@
+.input {
+    padding: 20px 0px;
+}
+
+.input__field {
+    width: 90%;
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 10px 10px 10px 40px;
+    display: block;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    outline: none;
+    background: url("img/search.png") no-repeat 10px center / 20px 20px;
+}
